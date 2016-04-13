@@ -1,0 +1,67 @@
+/* styles for body, container,
+and styles that are applied to multiple elements */
+main 
+
+body {
+	font-family: Arial, sans-serif;
+	border-style: color, black
+}
+
+.container {
+	width: 80%; /* makes all content take up 80% no matter how wide the page is */
+	margin: 0 auto; /* removes top and bottom margins, left/right margins automatically determined */
+}
+
+/* styles for header and navigation */
+
+.logo {
+	float: left;
+	/*border-radius: 50%; /* rounds the corners of the square image so it displays as a circle */
+}
+
+header, footer {
+	text-align: center; /* aligns the text in the center */
+}
+
+nav ul {
+	margin: 50%
+	display: inline-block;
+	list-style-type: none; /* removes bullet points from list */
+	padding: 0; /* removes padding from ul */
+}
+
+nav li {
+	display: inline; /* displays list items next to each other */
+	padding: 0.5em; /* provides a bit of space between list items - look into the em value */
+}
+
+/* :active - link as it is actively being clicked on */
+/* :hover - link when you hover over it */
+/* :visited - link when you have already visited it */
+/* :link - link by itself */
+nav a:active, nav a:hover, nav a:visited, nav a:link {
+	text-decoration: none; /* in this case, removes default underline from the links */
+	color: #000000; /* changes font color to black */
+}
+
+nav a:hover {
+	font-weight: bold; /* makes font bold */
+	background-color: #cccccc; /* changes the bg color to gray */
+}
+
+/* styles for main content */
+
+#hero {
+	width: 100%; /* makes width of the hero image 100% of the .container */
+}
+
+
+
+/* styles for footer */
+
+footer {
+	font-size: 0.75em; /* changes the font size */
+	padding: 0.5em 0; /* adds padding on top/bottom, nothing on left/right */
+}
+
+
